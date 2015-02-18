@@ -1,0 +1,58 @@
+Jake Petek
+Lab 1 Questions
+
+1. The most commmon word to follow 'happy' is 'birthday'.
+
+2. The most common word to follow 'sad' is 'song'.
+
+3. There are 58 unique words follow computer
+
+4. The most common word to follow 'computer' is 'love'.
+
+5. 'love' follows 'computer' 13 times.
+
+6. happy birthday song for the world is a little girl in the world is a little girl in the world
+
+7. sad song for the world is a little girl in the world is a little girl in the world is
+
+8. hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey
+
+9. little girl in the world is a little girl in the world is a little girl in the world is
+
+10. Almost every title devolves into a repeating loop. The most common loop is 'the world is a little girl in', with the 'you are' loop being fairly common as well.
+
+11. amore mio babbino caro gianni schicchi
+
+12. love you are you are you are you are you are you are you are you are you are you
+
+13. little girl i don't know what you are you are you are you are you are you are you are
+
+14. Many words end up being followed by the common words 'you' and 'are' which are in turn followed by eachother creating a loop. The are some other loops
+	as well such as 'de la vida es el amor'.
+
+15. 'grassy knoll' and 'queer notions' both terminate, but the vast majority of title get stuck in a repeating loop
+
+16. The problem was with repeating words, so the solution was to simply stop the title generation if it gets to a words that is already in the previously generated
+	portion of the title. To do this I simply used a regular expresion to see if the next word to be added is already present within the song title. But, just 
+	doing this will cut some titles short because a word can be contained within another word. For example 'are' is contained in 'beware'. Therefore the regular
+	expression must check to make sure that there are either spaces or the begining or end of the string on either side of the word.
+
+17. montana sacra nova baby i don't know what you are
+
+18. bob marley is my love you are
+
+19. No, this time I got 'bob marley song about you are'. This can be different because there is a tie between multiple words when finding the most common word to 
+	follow marley, so a random one out of the ties is picked each time.
+
+20. fat mama don't know what you are
+
+21. I really like the regular expressions and the hash and array construction and manipulation.
+
+22. I sort of dislike the abundance of equivalent syntax which made looking up different things in perl confusing.
+
+23. I really enjoyed this lab. There were some aspects of string manipulation which were frustrating, such as the fact that new line characters were getting
+	included in my bigrams. But, overall, the lab was enjoyable, and playing with the title generator afterwards was entertaining.
+
+24. Probably around six hours
+
+25. Yes , probably. I feel like I would use perl in the future if I ever have to do a lot of string manipulation.
